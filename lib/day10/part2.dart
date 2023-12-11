@@ -156,7 +156,6 @@ void replaceJunk(List<List<String>> map, Map<int, Set<int>> loop) {
 int calculateArea(List<List<String>> map) {
   var result = 0;
   for (var y = 0; y < map.length; y++) {
-    final temp = result;
     var pipeCount = 0;
     String? lastCorner;
     for (var x = 0; x < map[y].length; x++) {
